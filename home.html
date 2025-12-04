@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Match</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 style="display: inline-block;">Music Match</h1>
+        <img src="{{ url_for('static', filename='images/icon.png') }}" alt="Icon" class="icon"> <!-- 아이콘 추가 -->
+        <p>당신의 음악 취향에 맞춰 추천 음악을 제공합니다.</p>
+        <p>아래 버튼을 클릭하여 시작하세요!</p>
+        <a href="{{ url_for('question1') }}">
+            <button class="btn">음악 추천 받기</button>
+        </a>
+    </div>
+</body>
+</html>

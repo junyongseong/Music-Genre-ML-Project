@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>질문 5~8</title>
+</head>
+<body>
+    <form method="post">
+        <h2>5. 어떤 감성의 노래를 주로 좋아하시나요? (한 가지 선택)</h2>
+        <input type="radio" name="emotion" value="emotional" required> 감성적이거나 고전적인 장르<br>
+        <input type="radio" name="emotion" value="energetic"> 강렬하거나 신나는 장르<br>
+
+        <h2>6. 음악을 위해 하는 활동은 무엇인가요? (중복 선택 가능)</h2>
+        <input type="checkbox" name="activity" value="search_new"> 새로운 음악을 찾거나 검색을 한다<br>
+        <input type="checkbox" name="activity" value="make_playlist"> 플레이리스트를 만들어 그 노래 위주로 듣는다<br>
+        <input type="checkbox" name="activity" value="attend_concert"> 공연이나 버스킹 장소를 찾아간다<br>
+        <input type="checkbox" name="activity" value="find_random"> 길거리에서 우연히 들은 노래를 찾아본다<br>
+
+        <h2>7. 새로운 음악 장르를 자주 듣나요? (한 가지 선택)</h2>
+        <input type="radio" name="genre_preference" value="explore_new" required> 새로운 장르를 찾거나 도전해서 즐긴다<br>
+        <input type="radio" name="genre_preference" value="stick_genre"> 내가 주로 좋아하는 장르 위주로만 듣는다<br>
+
+        <h2>8. 음악을 주로 알게 되는 경로는 무엇인가요? (중복 선택 가능)</h2>
+        <input type="checkbox" name="discovery" value="self_search"> 본인이 직접 음악을 찾는다<br>
+        <input type="checkbox" name="discovery" value="random_discovery"> 길거리에서 우연히 들어본 음악<br>
+        <input type="checkbox" name="discovery" value="short_form"> 숏폼이나 영상에서 들어본 음악<br>
+        <input type="checkbox" name="discovery" value="recommend_list"> 추천 목록이나 알고리즘 위주<br>
+        <input type="checkbox" name="discovery" value="other_recommendation"> 다른 사람의 음악 추천<br>
+        <button type="submit">결과 보기</button>
+    </form>
+</body>
+</html>
