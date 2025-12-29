@@ -30,6 +30,8 @@ pip install flask
 
 # 애플리케이션 실행
 python app.py
+or
+py app.py
 ```
 
 실행 후 브라우저에서 `http://localhost:5000`으로 접속하세요.
@@ -43,9 +45,7 @@ python app.py
 ## 향후 계획
 
 - 머신러닝 모델 통합
-- 음악 장르 분류 알고리즘 구현
 - 실제 음악 데이터베이스 연동
-- 음악 재생 기능 추가
 
 ## 작성자
 
